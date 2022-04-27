@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+.navbar ul{
+    position: fixed;
+    list-style-type: none;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4%;
+    font-weight:lighter;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-size: contain;
+    background-image: url(image/milky-way-2750627__340.jpeg);
+}
+.navbar ul li:hover{
+    color: #553527;
+    border-bottom: 2px solid #553527;  
+}
+
+
+.navbar ul li a{
+    text-shadow: 2px 2px #005609;
+    letter-spacing: 1px;  
+    color: antiquewhite;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+
+  
+}
+/* end of navbar */
+
+/* home page */
+.main-name{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20%;
+    background-size: cover;
+    align-items: center;
+    background-image: url("image/map-of-the-world-2401458_960_720.jpeg");
+}
+
+.intro h1{
+    font-size: 300%;
+    color: rgba(241, 254, 2, 0.907);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px hsla(197, 86%, 48%, 0.953);
+}
+
+.intro h4{
+     font-family: 'Lobster', cursive;
+     font-size: 2rem;
+     color: rgba(18, 2, 31, 0.986);
+     text-shadow: 1px 1px rgb(252, 246, 233);
+     word-spacing: 10px;
+}
+span{
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    color: rgba(72, 0, 255, 0.617);
+    
+}
+
+.main-name img{
+    border-radius: 25%;
+}
+
+/* end of home page */
+
+/* about me */
+
+.about-me{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 20%;
+   background-image: url("image/milky-way-2750627__340.jpeg");
+}
+
+.about-me img{
+  border-radius: 25%;
+  width: 40rem;
+  margin-left: -10rem;
+}
+
+.about-me1{ 
+    color: white;
+    margin-left: 3rem;
+}
+
+.about-me1 h1{
+    font-size: 2em;
+margin-top: -8%;
+}
+
+.about-me1 span{
+    text-shadow: 2px 2px red;
+    font-size: 2.5rem;
+    color: rgb(0, 255, 8);
+}
+
+.about-me1 p{
+    font-size: 120%;
+   text-align: center;
+}
+/* end of about me */
+
+/* experiance */
+.main-exprc{
+    padding: 20%;
+    background-color: #4ce76e;
+    background-image: url(/css/image/laptop.jpeg);
+}
+
+.main-exprc h1{
+    text-align: center;
+    margin-top: -3rem;
+    color: #b7d410;
+}
+
+.main-exprc p{
+    margin-top: 3rem;
+   color: white;
+}
+/* end of experiance */
+
+
+
+
+
+
+
+
+/* education */
+.education{
+  background-size: cover;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 20%;
+   background-image: url("image/futuristic-6479796__340.jpeg");
+}
+
+.sub h1{
+    font-size: 6rem;
+    color: white;
+    margin-top: -17rem;
+    font-family: 'Lobster', cursive;
+     margin-left: 25%;
+}
+
+.sub h3{
+    color: lawngreen;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.sub ul{
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+
+.certi-detail h3{
+    color: lawngreen;
+    font-size: 1.5rem;
+    margin-top: 60px;
+    text-align: justify;
+   
+}
+
+.certi-detail ul{
+    color: white;
+    text-align: justify;
+}
+
+.sub{
+    margin-top: 5rem;
+    padding-right: 8rem;
+}
+
+/* end of eduction*/
+
+/* skills */
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+    align-items: center;
+    padding: 20%;
+    background-image: url(image/moon-31665_960_720.png);
+}
+
+.skill-set h1{
+  text-align: center;
+  margin-top: -18rem;
+  padding: 20%;
+  color: aliceblue;
+  font-size: 4rem;
+  font-family: 'Lobster', cursive;
+}
+
+.skill-set{
+text-align: center;
+ 
+}
+.icon{
+  width: 15.875rem;
+  height: 11.25rem; 
+}
+.skill-set img:hover{
+background-color: yellow;
+}
+/* end of skill */
+
+/* socila medials */
+.socials{
+ text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+  }
+  
+  .socicon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .socials:hover{
+     background-color: red;
+  }
+/* end of social media */
+
+  /* footer */
+  .footer{
+   background: fixed;
+    padding: 4%;
+    text-align: center;
+    background-image: url(image/devops-3148408_960_720.jpeg);
+}
+/* end of footer */
+
+  @media screen and (max-width:600px) {
+    .navbar ul{
+        flex-direction: column;
+        align-items: flex-start;
+ 
+    }
+    .main-name{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container2 > *{
+    flex-direction: column;
+    align-items: center;
+    }
+    .for-media{
+        width: 100%;
+    }
+  .about-me img{
+     width: 100%;
+     margin-left: 6%;
+  }
+    .sub{
+        width: 100%;   
+    }
+    .sub h1{
+        color: #4ce76e;
+        margin-top: 20%;
+        font-size: 3rem;
+    }
+    .skill-set h1{
+        margin-top: 0;
+        color: #b7d410;
+    }
+    .intro h1 {
+       margin-top: 50%;
+    }
+    .intro h4{
+        text-align: center;
+    }
+    }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
