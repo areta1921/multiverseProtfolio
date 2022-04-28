@@ -23,7 +23,7 @@
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
     background-size: contain;
-    background-image: url(image/milky-way-2750627__340.jpeg);
+    background-image: url("image/milky-way-2750627__340.jpeg");
 }
 .navbar ul li:hover{
     color: #553527;
@@ -124,7 +124,7 @@ margin-top: -8%;
 /* experiance */
 .main-exprc{
     padding: 20%;
-    background-image: url(/css/image/swan.jpeg);
+    background-image: url("image/swan.jpeg");
 }
 
 .main-exprc h1{
@@ -196,7 +196,7 @@ margin-top: -8%;
     background-size: cover;
     align-items: center;
     padding: 20%;
-    background-image: url(image/coding.webp);
+    background-image: url("image/coding.webp");
 }
 
 .skill-set h1{
@@ -248,7 +248,7 @@ background-color: yellow;
    background: fixed;
     padding: 4%;
     text-align: center;
-    background-image: url(image/devops-3148408_960_720.jpeg);
+    background-image: url("image/devops-3148408_960_720.jpeg");
 }
 /* end of footer */
 
