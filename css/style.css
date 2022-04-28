@@ -231,6 +231,119 @@ background-color: rgba(24, 194, 236, 0.784);
 }
 /* end of skill */
 
+
+/* PROJECT SECTION */
+.proj-head{
+    text-align: center;
+    margin-top: 4%;
+} 
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;  
+    padding: 5%;
+    
+}
+
+.proj-head{
+    background-image: url(image/earth.jpg);
+    background-size: cover;
+    margin:0;
+}
+.proj-head h1{
+ color: rgba(188, 227, 143, 0.905);
+ font-size: 5rem;
+ margin-bottom: -3%;
+ font-family:'Lobster', cursive;;
+}
+.container div{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: 20px;
+    
+}
+
+
+.first-div{
+    border: 1px solid #f2f4e4;
+    background-color: #c6cfed; 
+    background-image: url(image/swan.jpeg);
+  }
+
+  .first-div h2{
+     text-align: center;
+     font-size: 2rem;
+     letter-spacing: 4px;
+     text-decoration: none;
+    color: #f2f4e4;
+  }
+
+  .first-div h2 a{
+    text-decoration: none;
+    te
+ }
+
+
+  
+  .second-div{
+    border: 1px solid #f2f4e4;
+  }
+  
+  .third-div{
+    border: 1px solid #f2f4e4;
+  }
+  
+  .fourth-div{
+    border: 1px solid #f2f4e4;
+  }
+  
+  .fifth-div{
+    border: 1px solid #f2f4e4;
+  }
+  
+  .sixth-div{
+    border: 1px solid #f2f4e4;
+  }
+  
+.first-div:hover{
+    background-color: #ecdad2;
+}
+
+.second-div:hover{
+    background-color: #553527;
+}
+.third-div:hover{
+    background-color: #fdb190;
+}
+.fourth-div:hover{
+    background-color: #a9d832;
+}
+.fifth-div:hover{
+    background-color: #2d499e;
+}
+.sixth-div:hover{
+    background-color: #5ec80dab;
+}
+ 
+/* END OF PROJECT SECTION */
+
+
+
+
+
+
 /* socila medials */
 .socials{
  text-align: center;
@@ -308,6 +421,9 @@ background-color: rgba(24, 194, 236, 0.784);
     .main-exprc h1{
         color: #adf89c8b;
        margin-top: 2rem;
+    }
+    .header1{
+       margin-top: 10vh;
     }
     
     }
