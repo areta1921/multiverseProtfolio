@@ -141,28 +141,17 @@ margin-top: -8%;
 /* end of experiance */
 
 
-
-
-
-
-
-
 /* education */
 .education{
   background-size: cover;
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
    padding: 20%;
-   background-image: url("image/futuristic-6479796__340.jpeg");
+   background-image: url("image/fizer.jpg");
 }
 
 .sub h1{
     font-size: 6rem;
     color: white;
-    margin-top: -17rem;
+    margin-top: -7rem;
     font-family: 'Lobster', cursive;
      margin-left: 25%;
 }
@@ -208,14 +197,14 @@ margin-top: -8%;
     background-size: cover;
     align-items: center;
     padding: 20%;
-    background-image: url(image/moon-31665_960_720.png);
+    background-image: url(image/coding.webp);
 }
 
 .skill-set h1{
   text-align: center;
   margin-top: -18rem;
   padding: 20%;
-  color: aliceblue;
+  color: rgb(200, 201, 124);
   font-size: 4rem;
   font-family: 'Lobster', cursive;
 }
@@ -307,6 +296,11 @@ background-color: yellow;
     .intro h4{
         text-align: center;
     }
+    .main-exprc h1{
+        color: #adf89c8b;
+       margin-top: 2rem;
+    }
+    
     }
 
 
