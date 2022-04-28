@@ -387,22 +387,30 @@ background-color: rgba(24, 194, 236, 0.784);
 /* end of footer */
 
   @media screen and (max-width:600px) {
+    .navbar{
+        margin-top: -1.5rem;
+    }
     .navbar ul{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        margin-top: 7%;
+        
  
     }
     .main-name{
         flex-direction: column;
         align-items: center;
+        
     }
     .about-me{
         flex-direction: column;
         align-items: center;
+        
     }
     .container2 > *{
     flex-direction: column;
     align-items: center;
+   
     }
     .for-media{
         width: 100%;
@@ -433,12 +441,22 @@ background-color: rgba(24, 194, 236, 0.784);
         color: #adf89c8b;
        margin-top: 2rem;
     }
-    .header1{
-       margin-top: 10vh;
+    .intro{
+        margin-top: 17%;
     }
+    .header1{
+       margin-top: 20vh;
     
     }
+    .footer{
+        padding: 19%;
+        
+    }
+    
+    
 
+
+ 
 
 
   
