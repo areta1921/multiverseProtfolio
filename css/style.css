@@ -292,37 +292,48 @@ background-color: rgba(24, 194, 236, 0.784);
 
   .first-div h2 a{
     text-decoration: none;
-    te
  }
 
 
   
   .second-div{
+    color: white;
     border: 1px solid #f2f4e4;
+    background-image: url(image/milky-way-2750627__340.jpeg);
   }
   
   .third-div{
+    color: white;
     border: 1px solid #f2f4e4;
+    background-image: url(image/texture-2613518__340.jpeg);
+    background-size: cover;
   }
   
   .fourth-div{
+    color: white;
     border: 1px solid #f2f4e4;
+    background-image: url(image/futuristic-6479796__340.jpeg);
+    background-size: cover;
   }
   
   .fifth-div{
+    color: white;
     border: 1px solid #f2f4e4;
+    background-image: url(image/laptop.jpeg);
   }
   
   .sixth-div{
+    color: white;
     border: 1px solid #f2f4e4;
+    background-image: url(image/fizer.jpg);
   }
   
 .first-div:hover{
-    background-color: #ecdad2;
+    background-color: #642509;
 }
 
 .second-div:hover{
-    background-color: #553527;
+    background-color: #91e609;
 }
 .third-div:hover{
     background-color: #fdb190;
