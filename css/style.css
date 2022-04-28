@@ -56,10 +56,10 @@
 
 .intro h1{
     font-size: 300%;
-    color: rgba(241, 254, 2, 0.907);
+    color: rgba(8, 10, 8, 0.741);
     text-align: center;
     font-family: 'Lobster', cursive;
-    text-shadow: 3px 3px hsla(197, 86%, 48%, 0.953);
+    text-shadow: 3px 3px hsla(135, 87%, 50%, 0.953);
 }
 
 .intro h4{
@@ -150,7 +150,7 @@ margin-top: -8%;
 .sub h1{
     font-size: 6rem;
     color: white;
-    margin-top: -7rem;
+    margin-top: -5rem;
     font-family: 'Lobster', cursive;
      margin-left: 25%;
 }
@@ -158,13 +158,12 @@ margin-top: -8%;
 .sub h3{
     color: lawngreen;
     font-size: 1.5rem;
-    text-align: justify;
+   
 }
 
 .sub ul{
     color: white;
-    text-align: center;
-    text-align: justify;
+    
 }
 
 
@@ -172,19 +171,29 @@ margin-top: -8%;
     color: lawngreen;
     font-size: 1.5rem;
     margin-top: 60px;
-    text-align: justify;
+    
    
 }
 
 .certi-detail ul{
     color: white;
-    text-align: justify;
+   
 }
 
 .sub{
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding-right: 8rem;
+    
 }
+
+.header1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #f2f4e4;
+    text-shadow: 2px 2px rgb(96, 132, 241);
+   font-size: 4em;
+}
+
 
 /* end of eduction*/
 
@@ -203,9 +212,10 @@ margin-top: -8%;
   text-align: center;
   margin-top: -18rem;
   padding: 20%;
-  color: rgb(200, 201, 124);
+  color: rgb(126, 197, 227);
   font-size: 4rem;
   font-family: 'Lobster', cursive;
+  text-shadow: 8px 5px rgb(242, 242, 242);
 }
 
 .skill-set{
@@ -217,7 +227,7 @@ text-align: center;
   height: 11.25rem; 
 }
 .skill-set img:hover{
-background-color: yellow;
+background-color: rgba(24, 194, 236, 0.784);
 }
 /* end of skill */
 
